@@ -9,20 +9,65 @@
     <!-- SWIPER CSS -->
     <link rel="stylesheet" href="">
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
    <header class="header">
-    <div class="header__top">
-        <div class="header_container">
+    <div class="header_top">
+        <div class="header_container container">
             <div class="header_contact">
                 <span>(+62) 895 - 3315 - 8086 - 7</span>
                 <span>Our location</span>
             </div>
-            <p>Ulangan Akhir Semester - Website</p>
-            <a href="login-register.html" class="header_top-action"></a>
+            <p class="header_alert-news">Ulangan Akhir Semester - Website</p>
+            <a href="login-register.html" class="header_top-action">
+                Log In / Sign Up
+            </a>
         </div>
     </div>
+
+    <nav class="nav container">
+        <a href="index.html" class="nav_logo">
+            <img src="assets/img/logo.svg" alt="" class="nav_logo-img">
+        </a>
+        <div class="nav_menu" id="nav-menu">
+            <ul class="nav_list">
+                <li class="nav_item">
+                    <a href="index.html" class="nav_link">Home</a>
+                </li>
+                <li class="nav_item">
+                    <a href="shop.html" class="nav_link">Shop</a>
+                </li>
+                <li class="nav_item">
+                    <a href="accounts.html" class="nav_link">My accounts</a>
+                </li>
+                <li class="nav_item">
+                    <a href="compare.html" class="nav_link">Compare</a>
+                </li>
+                <li class="nav_item">
+                    <a href="login-register.html" class="nav_link">Login</a>
+                </li>
+            </ul>
+            <div class="header_search">
+                <input type="text" placeholder="Search" class="form_input">
+                <button class="search_btn">
+                    <img src="assets/img/search.png" alt="">
+                </button>
+            </div>
+        </div>
+
+        <div class="header_user-actions">
+            <a href="wishlist.html" class="header_action-btn">
+                <img src="assets/img/icon-heart.svg" alt="">
+                <span class="count">3</span>
+            </a>
+
+            <a href="cart.html" class="header_action-btn">
+                <img src="assets/img/icon-cart.svg" alt="">
+                <span class="count">3</span>
+            </a>
+        </div>
+    </nav>
    </header>
 </body>
 </html>
